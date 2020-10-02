@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+    position: fixed;
+    left:0;
+    top:0;
+    right:0;
+    width:100%;
+    height: 47px;
+	z-index: 1;
+}
+
+main{
+    margin-top: 55px;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: darkslategrey;
+}
+
+#totoro{
+    width: 47px;
+    height: 47px;
+    float: left;
+    padding: none;
+}
+
+#nav-title{
+    color: rgb(245, 194, 118);
+    font-size: 25px;
+    border-style: solid;
+    border: 1px;
+    padding-left: 46%;
+    padding-top: 9px;
+    margin: 0;
+}
+
+.navbar a{
+    float: left;
+    font-size: 15px;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: solid;
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropdownbtn{
+    font-size: 14px;
+    color: blanchedalmond;
+    padding: 15px 15px;
+    background-color: inherit;
+    border: none;   
+}
+
+.navbar a:hover, .dropdown:hover .dropdownbtn{
+    background-color: sienna;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(91, 141, 141);
+}
+
+.dropdown-content a{
+    color: blanchedalmond;
+    float: none;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover{
+    background-color: rgb(112, 153, 153);
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+
+.content{
+  min-height: calc(96vh - 70px);
+}
+
+footer{
+  height: 50px;
+  background-color: darkslategrey;
+  overflow: hidden;
+}
+
+footer a, .footerbar{
+  float: left;
+  padding: 8px 8px;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.footerbar a:hover{
+  background-color: sienna;
+}
+
+.footer-image{
+    width: 35px;
+    height: 35px;
+    padding: unset;
+}

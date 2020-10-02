@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+*{
+    cursor: url(http://cur.cursors-4u.net/anime/ani-10/ani932.cur), auto !important
+}
+
+th{
+    background-color: #EB5B5D;
+}
+
+td{
+    border: 2px solid #A8000E;
+}
+
+
+h3{
+    border-color: #A8000E;
+}
+
+
+
+.item1{
+    box-shadow: 5px 5px 5px #A8000E;
+    background: white;
+}
+
+
+.titleImage{
+    width: 500px;
+    height: 120px;
+}
+
+
+.movieTitle{
+    background-color:#A8000E;
+}
+
+

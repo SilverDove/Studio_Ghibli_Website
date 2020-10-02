@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+*{
+    cursor: url(http://cur.cursors-4u.net/toons/too-1/too41.png), auto !important
+}
+
+th{
+    background-color:  #90DAC4;
+}
+
+td{
+    border: 2px solid #51C34B;
+}
+
+
+h3{
+    border-color: #51C34B;
+}
+
+.item1{
+    box-shadow: 5px 5px 5px #51C34B;
+    background: white;
+}
+
+
+.titleImage{
+    width: 500px;
+    height: 150px;
+}
+
+
+.movieTitle{
+    background-color:#51C34B;
+}
+
+

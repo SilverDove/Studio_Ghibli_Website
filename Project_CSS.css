@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+h1{
+    text-align: center;
+    padding-right: 0px;
+}
+
+body{
+    background-image: url("bg2.png");
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat, repeat-y;
+}
+
+#title{
+    width: 50%;
+    margin: auto;
+    padding: 1px 1px;
+    background-color: darkslategrey;
+    border: 2px solid rgb(226, 193, 44);
+}
+
+#title > h1{
+    color: rgb(245, 194, 118);
+}
+
+.top-of-page{
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 19px;
+    text-align: center;
+    background-color: darkslategrey;
+    color: blanchedalmond;
+}
+
+#movie-section{
+    font-size: 32px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    color: rgb(245, 194, 118);
+    background-color: darkslategrey;
+    border-top: 1px solid rgb(226, 193, 44);
+    border-left: 1px solid rgb(226, 193, 44);
+    border-right: 1px solid rgb(226, 193, 44);
+}
+
+.imagezone{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: darkslategrey;
+    text-align: center;
+    height: auto;
+    border-top: 1px solid rgb(226, 193, 44);
+    border-left: 1px solid rgb(226, 193, 44);
+    border-right: 1px solid rgb(226, 193, 44);
+    border-bottom: 1px solid rgb(226, 193, 44);
+}
+
+.imagezone > div{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding: 1% 1%;
+}
+
+.imagezone > div > p{
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.imagezone > div > a >  img{
+    transition: opacity 0.6s ease-out;
+    width: auto;
+    height: auto;
+}
+
+.imagezone > div > a > img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=40);
+}
+
+.info-wrapper{
+    width: 100%;
+    display: flex;    
+    border: 1px solid rgb(226, 193, 44);
+    background-color: darkslategrey;
+    color: rgb(245, 194, 118);
+}
+
+#museum > h3, #news > h3{
+    padding-bottom: 18px;
+    border-bottom: 5px dashed rgb(23, 42, 23);
+}
+
+#museum{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    border: 1px solid rgb(23, 42, 23);
+    text-align: center; 
+}
+
+#museum > div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#museum > div > div{
+    font-size: 20px;
+    padding-top: 20%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+#museum > div > div > a{
+    padding: 2px 2px;
+    border: 2px solid rgb(23, 42, 23);
+    text-decoration: none;
+    color: blanchedalmond;
+    transition: color 0.1s ease-out;
+}
+
+#museum > div > div > a:hover{
+    color: sienna;
+}
+
+
+#museum > div > img{
+    width: 45%;
+    height: 45%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#news{
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    border: 1px solid rgb(23, 42, 23);
+    width: 50%;
+}
+
+#news > p{
+    font-size: 20px;
+    padding-bottom: 1.4%;
+}
+
+#news > p > a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+#news > p > a:hover{
+    color: sienna;
+}
+
+#news-image{
+    position:relative;
+    width: 356px;
+    height: 500px;
+    margin:0 auto;
+}
+
+@keyframes ImageFade {
+    0% {
+    opacity:1;
+    }
+    45% {
+    opacity:1;
+    }
+    55% {
+    opacity:0;
+    }
+    100% {
+    opacity:0;
+    }
+}
+
+#news-image .top {
+    animation-name: ImageFade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}
+
+#news-image .bottom{
+    position: absolute;
+    left: 0;
+    animation-name: ImageFade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+}

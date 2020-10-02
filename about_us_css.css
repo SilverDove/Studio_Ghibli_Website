@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+    cursor: url(http://cur.cursors-4u.net/toons/too-1/too41.png), auto !important
+}
+
+
+body {
+	background-image: url("zaksij2.jpg");
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+img {
+	width: 220px;
+	height: 240px;
+}
+
+.box {
+	border: solid 2px black;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px grey;
+}
+
+figcaption {
+	font-family: impact, "Times New Roman", sans-serif;
+	margin-bottom: 0.5em;
+	font-size: 2em;
+	text-shadow: 1px 1px 1px grey;
+}
+
+.element {
+	width: 300px;
+	height: 250px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.sousconteneur {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#conteneur {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 850px;
+	margin-top: 5em;
+	z-index: 2;
+}
+
+.box p {
+	position: absolute;
+	width: 0%;
+	height: 0%;
+	opacity: 0;
+	display: none;
+}
+
+.box:hover img{
+	display: none;
+}
+
+.box:hover p {
+	position: relative;
+	opacity: 1;
+	height: 240px;
+	width: 230px;
+	text-align: center;
+	color: #FFD345;
+	display: block;
+}
+
+.box:hover {
+	border: 4px yellow solid;
+	box-shadow: 2px 2px 2px yellow;
+}
+
+.box:hover figcaption {
+	color: #FF8400;
+}
+
+
+
+.content{
+  min-height: calc(96vh - 70px);
+}
+
+footer{
+  height: 50px;
+  background-color: darkslategrey;
+  overflow: hidden;
+}
+
+footer a, .footerbar{
+  float: left;
+  padding: 8px 8px;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.footerbar a:hover{
+  background-color: sienna;
+}
+
+.footer-image{
+    width: 35px;
+    height: 35px;
+    padding: unset;
+}
+
+
+header{
+    position: fixed;
+    left:0;
+    top:0;
+    right:0;
+    width:100%;
+    height: 47px;
+	z-index: 1;
+}
+
+main{
+    margin-top: 55px;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: darkslategrey;
+}
+
+#totoro{
+    width: 47px;
+    height: 47px;
+    float: left;
+    padding: none;
+}
+
+#nav-title{
+    color: rgb(245, 194, 118);
+    font-size: 25px;
+    border-style: solid;
+    border: 1px;
+    padding-left: 46%;
+    padding-top: 9px;
+    margin: 0;
+}
+
+.navbar a{
+    float: left;
+    font-size: 15px;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: solid;
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropdownbtn{
+    font-size: 14px;
+    color: blanchedalmond;
+    padding: 15px 15px;
+    background-color: inherit;
+    border: none;   
+}
+
+.navbar a:hover, .dropdown:hover .dropdownbtn{
+    background-color: sienna;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(91, 141, 141);
+}
+
+.dropdown-content a{
+    color: blanchedalmond;
+    float: none;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover{
+    background-color: rgb(112, 153, 153);
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
