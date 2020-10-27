@@ -20,7 +20,7 @@ It's also possible to fetch the [release project]().
 ### What We implemented
 * Nine screens:
     * Home:Home page of the website showing all the different articles availables
-    * Your page: Insipired from the website "My Anime List", this page allows to create a WatchList of   Ghibli movies (watched, plan to watch and drop). The user can modify the design of the page.
+    * Your page: Insipired from the website "My Anime List", this page allows to create a WatchList of Ghibli movies (watched, plan to watch and drop). The user can modify the design of the page.
     * Princess Mononoke: article about the movie Princess Mononoke
     * Spirited Away: article about the movie Spirited Away
     * My Neighbor Totoro: article about the movvie My Neighbor Totoro
@@ -38,59 +38,78 @@ It's also possible to fetch the [release project]().
  ### Home Page
  A presentation of the studio Ghibli is made. Then, it displays the last articles (films, museum and people).
 
- ![]()
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Home%20Page.jpg)
   
  ### Movies
- The user has access to three movie articles where they can see information about the movie, a sum up of the story and an analysis. The user can listen to the movie main theme and watch the trailer. In addition, the user can write comments at the end of the page. However, thses comments are not store in any database.
-     
- ![]()
+ The user has access to three movie articles where they can see information about the movie, a sum up of the story and an analysis. The user can listen to the movie main theme and watch the trailer. 
+  
+  **Princess Mononoke**   
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Princess%20Mononoke.png)
+ 
+   **My Neighbor Totoro**   
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20My%20Neighbor%20Totoro.png)
+ 
+   **Spirited Away**   
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Spirited%20Away.png)
+ 
+   In addition, the user can write comments at the end of the page. However, thses comments are not store in any database. 
+   
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Comments%20(1).png)
+ 
+ If the user didn't write a pseudo, it will automatically named "Anonymous"
+ 
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Comments%20(2).png)
  
  ### Your page
- This page contains the movies the user wants to watched or already watched. The user can filter the list by using the searchBar or the navigation at the top right corner (all, watched, unwatched). Of course, the user can access to the details of each movie. This page is the only one that can be accessible offline. 
+ Insipired from the website "My Anime List", this page allows to create a WatchList of Ghibli movies (watched, plan to watch and drop). The user can modify the design of the page.
  
- * **Navigation:** The user can filter the list by displaying all the movies , the watched movies or the unwatched movies.
+ **Blue Light Theme**
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Your%20Page%20LIGHT%20BLUE.png)
  
- ![]()
+  **Blue Dark Theme**
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Your%20Page%20DARK%20BLUE.png)
  
- * **All movies:**
+  **Pink Light Theme**
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Your%20Page%20LIGHT%20PINK.png)
  
- ![]()
+  **Pink Dark Theme**
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Your%20Page%20DARK%20PINK.png)
  
- * **Movies watched:**
+  **Green Light Theme**
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Your%20Page%20LIGHT%20GREEN.png)
  
- ![]()
+  **Green Dark Theme**
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Your%20Page%20DARK%20GREEN.png)
  
- * **Movies Unwatched:**
+  **Orange Light Theme**
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Your%20Page%20LIGHT%20ORANGE.png)
  
- ![]()
- 
- * **Search bar navigation:** The user can use the search bar to find quickly a movie in the watchlist by typing the movie name
- 
- ![]()
- 
- * **Empty watchlist:**
- 
- ![]()
+  **Orange Dark Theme**
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Your%20Page%20DARK%20ORANGE.png)
  
  ### Ghibli Museum
- The user can also search movies from the TMDB to add them into the watchlist or display their information.
+ This page contains all the information about the Ghibli Museum (history, what you can find, price, etc...)
  
- ![]()
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Studio%20Ghibli%20museum.png)
  
   ### People
- The user can also search movies from the TMDB to add them into the watchlist or display their information.
+ There are two articles : one about Hayao Miyazaki and the other one about Isao Takahata
  
- ![]()
+ **Hayao Miyazaki**
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Hayao%20Miyazaki.jpg)
+ 
+ **Isao Takahata**
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Isao%20Takahata.jpg)
  
   ### About Us
- The user can also search movies from the TMDB to add them into the watchlist or display their information.
+ This page shows all the collaborators of this project. When we put the mouse on one of the box, a description of the collaborator appears. At random time, some pictures appears on the screen.
  
- ![]()
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20About%20us.png)
  
   ## Authors
   * **Clara Tricot** - *Studio_Ghibli_Website* - [SilverDove](https://github.com/SilverDove)
   * **Stella Thammavong** - *Studio_Ghibli_Website* - [StellaTham](https://github.com/StellaTham)
-  * **Nicolas Jatob** - *Studio_Ghibli_Website* 
+  * **Nicolas Jatob** - *Studio_Ghibli_Website* - [Okuu-Sama](https://github.com/Okuu-Sama)
   * **Karen Kaspar** - *Studio_Ghibli_Website* 
  
  ## License
