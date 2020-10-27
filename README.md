@@ -75,10 +75,10 @@ It is intuitive and optimized for the ease of everyone. Enjoy it!
  ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Your%20Page%20DARK%20PINK.png)
  
   **Green Light Theme**
- ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Your%20Page%20LIGHT%20GREEN.png)
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Your%20Page%20LIGHT%20GREEN.jpg)
  
   **Green Dark Theme**
- ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Your%20Page%20DARK%20GREEN.png)
+ ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Your%20Page%20DARK%20GREEN.jpg)
  
   **Orange Light Theme**
  ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Your%20Page%20LIGHT%20ORANGE.png)
