@@ -6,7 +6,6 @@ It is intuitive and optimized for the ease of everyone. Enjoy it!
 
 ## Getting Started
 1. Clone or download the [master branch](https://github.com/SilverDove/Studio_Ghibli_Website.git).
-It's also possible to fetch the [release project]().
 2. Open the project folder and click on one of the html page.
 
 
