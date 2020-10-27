@@ -1,12 +1,12 @@
 # Studio Ghibli Website
 
 ## Introduction
-This project is an website about the Ghibli universe built using HTML, CSS and Javascript.  
+This project is a website about the Ghibli universe built using HTML, CSS and Javascript.  
 It is intuitive and optimized for the ease of everyone. Enjoy it!
 
 ## Getting Started
 1. Clone or download the [master branch](https://github.com/SilverDove/Studio_Ghibli_Website.git).
-2. Open the project folder and click on one of the html page.
+2. Open the project folder and click on one of the Html pages.
 
 
 ## Features
@@ -18,13 +18,13 @@ It is intuitive and optimized for the ease of everyone. Enjoy it!
 
 ### What We implemented
 * Nine screens:
-    * Home:Home page of the website showing all the different articles availables
-    * Your page: Insipired from the website "My Anime List", this page allows to create a WatchList of Ghibli movies (watched, plan to watch and drop). The user can modify the design of the page.
-    * Princess Mononoke: article about the movie Princess Mononoke
-    * Spirited Away: article about the movie Spirited Away
-    * My Neighbor Totoro: article about the movvie My Neighbor Totoro
-    * Ghibli Museum: article about the Ghibli Museum 
-    * Hayao Miyazaki: article about Hayao Miyzaki
+    * Home: Home page of the website showing all the different articles available
+    * Your page: Inspired from the website "My Anime List", this page allows to create a WatchList of Ghibli movies (watched, plan to watch and drop). The user can modify the design of the page.
+    * Princess Mononoke: an article about the movie Princess Mononoke
+    * Spirited Away: an article about the movie Spirited Away
+    * My Neighbor Totoro: an article about the movie My Neighbor Totoro
+    * Ghibli Museum: an article about the Ghibli Museum 
+    * Hayao Miyazaki: an article about Hayao Miyazaki
     * Isao Takahata: article about Isao Takahata
     * Who are we: presentation of all the collaborators for this project in a friendly way :)
 * Bottom Navigation to navigate between the different page
@@ -40,7 +40,7 @@ It is intuitive and optimized for the ease of everyone. Enjoy it!
  ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Home%20Page.jpg)
   
  ### Movies
- The user has access to three movie articles where they can see information about the movie, a sum up of the story and an analysis. The user can listen to the movie main theme and watch the trailer. 
+ The user has access to three movie articles where they can see information about the movie, a sum-up of the story and analysis. The user can listen to the movie main theme and watch the trailer. 
   
   **Princess Mononoke**   
  ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Princess%20Mononoke.png)
@@ -51,16 +51,16 @@ It is intuitive and optimized for the ease of everyone. Enjoy it!
    **Spirited Away**   
  ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Spirited%20Away.png)
  
-   In addition, the user can write comments at the end of the page. However, thses comments are not store in any database. 
+   Besides, the user can write comments at the end of the page. However, these comments are not stored in any database. 
    
  ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Comments%20(1).png)
  
- If the user didn't write a pseudo, it will automatically named "Anonymous"
+ If the user didn't write a pseudo, it will automatically be named "Anonymous"
  
  ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Comments%20(2).png)
  
  ### Your page
- Insipired from the website "My Anime List", this page allows to create a WatchList of Ghibli movies (watched, plan to watch and drop). The user can modify the design of the page.
+ Inspired from the website "My Anime List", this page allows creating a WatchList of Ghibli movies (watched, plan to watch and drop). The user can modify the design of the page.
  
  **Blue Light Theme**
  ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Your%20Page%20LIGHT%20BLUE.png)
@@ -92,7 +92,7 @@ It is intuitive and optimized for the ease of everyone. Enjoy it!
  ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Studio%20Ghibli%20museum.png)
  
   ### People
- There are two articles : one about Hayao Miyazaki and the other one about Isao Takahata
+ There are two articles: one about Hayao Miyazaki and the other one about Isao Takahata
  
  **Hayao Miyazaki**
  ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Hayao%20Miyazaki.jpg)
@@ -101,7 +101,7 @@ It is intuitive and optimized for the ease of everyone. Enjoy it!
  ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20Isao%20Takahata.jpg)
  
   ### About Us
- This page shows all the collaborators of this project. When we put the mouse on one of the box, a description of the collaborator appears. At random time, some pictures appears on the screen.
+ This page shows all the collaborators of this project. When we put the mouse on one of the boxes, a description of the collaborator appears. At a random time, some pictures appear on the screen.
  
  ![](https://github.com/SilverDove/Studio_Ghibli_Website/blob/main/Screen/Ghibli's%20World%20-%20About%20us.png)
  
